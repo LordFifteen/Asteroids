@@ -1,1 +1,42 @@
+# Размеры окна
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
 
+# Цвета
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+GRAY = (100, 100, 100)
+
+# Параметры корабля
+SHIP_SPEED = 0.2
+SHIP_ROTATION_SPEED = 3
+SHIP_DRAG = 0.99  # Сопротивление среды
+SHIP_ACCELERATION = 0.1
+SHIP_SIZE = 20
+
+# Параметры ракет
+MISSILE_SPEED = 7
+MISSILE_LIFETIME = 90  # В кадрах
+MISSILE_SIZE = 3
+
+# Параметры астероидов
+ASTEROID_MIN_SPEED = 1
+ASTEROID_MAX_SPEED = 3
+ASTEROID_MIN_ROTATION = -2
+ASTEROID_MAX_ROTATION = 2
+ASTEROID_SPAWN_RATE = 60  # Кадры между появлениями
+ASTEROID_MIN_SIZE = 20
+ASTEROID_MAX_SIZE = 50
+ASTEROID_COUNT = 5
+
+# Игровые параметры
+INITIAL_LIVES = 3
+EXPLOSION_DURATION = 20  # В кадрах
+TITLE_SCREEN_DURATION = 180  # В кадрах
+
+# Размеры заставки
+TITLE_WIDTH = 400
+TITLE_HEIGHT = 200
