@@ -1,42 +1,41 @@
-# Размеры окна
+#Размеры окна
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
-# Цвета
+#Цвета
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 GRAY = (100, 100, 100)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+DARK_GRAY = (80, 80, 80)
+LIGHT_GRAY = (200, 200, 200)
 
-# Параметры корабля
-SHIP_SPEED = 0.2
-SHIP_ROTATION_SPEED = 3
-SHIP_DRAG = 0.99  # Сопротивление среды
-SHIP_ACCELERATION = 0.1
-SHIP_SIZE = 20
+SHIP_SPEED = 0.2 #Базовая скорость корабля
+SHIP_ROTATION_SPEED = 3 #Скорость вращения корабля в градусах за кадр
+SHIP_DRAG = 0.99 #Коэффициент сопротивления среды (0-1)
+SHIP_ACCELERATION = 0.1 #Ускорение корабля при включении двигателей
+SHIP_SIZE = 20 #Размер корабля в пикселях
 
-# Параметры ракет
-MISSILE_SPEED = 7
-MISSILE_LIFETIME = 90  # В кадрах
-MISSILE_SIZE = 3
+MISSILE_SPEED = 7 #Скорость полета ракет
+MISSILE_LIFETIME = 90 #Время жизни ракеты в кадрах
+MISSILE_SIZE = 3 #Размер ракеты в пикселях
 
-# Параметры астероидов
-ASTEROID_MIN_SPEED = 1
-ASTEROID_MAX_SPEED = 3
-ASTEROID_MIN_ROTATION = -2
-ASTEROID_MAX_ROTATION = 2
-ASTEROID_SPAWN_RATE = 60  # Кадры между появлениями
-ASTEROID_MIN_SIZE = 20
-ASTEROID_MAX_SIZE = 50
-ASTEROID_COUNT = 5
+ASTEROID_MIN_SPEED = 1 #Минимальная скорость астероида
+ASTEROID_MAX_SPEED = 3 #Максимальная скорость астероида
+ASTEROID_MIN_ROTATION = -2 #Минимальная скорость вращения астероида
+ASTEROID_MAX_ROTATION = 2 #Максимальная скорость вращения астероида
+ASTEROID_SPAWN_RATE = 60 #Интервал появления новых астероидов в кадрах
+ASTEROID_MIN_SIZE = 20 #Минимальный размер астероида в пикселях
+ASTEROID_MAX_SIZE = 50 #Максимальный размер астероида в пикселях
+ASTEROID_COUNT = 5 #Начальное количество астероидов на уровне
 
-# Игровые параметры
-INITIAL_LIVES = 3
-EXPLOSION_DURATION = 20  # В кадрах
-TITLE_SCREEN_DURATION = 180  # В кадрах
+INITIAL_LIVES = 3 #Начальное количество жизней игрока
+EXPLOSION_DURATION = 20 #Длительность анимации взрыва в кадрах
+TITLE_SCREEN_DURATION = 180 #Длительность анимации заставки в кадрах
 
-# Размеры заставки
-TITLE_WIDTH = 400
-TITLE_HEIGHT = 200
+TITLE_WIDTH = 400 #Ширина прямоугольника заставки в пикселях
+TITLE_HEIGHT = 200 #Высота прямоугольника заставки в пикселях
