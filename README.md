@@ -8,6 +8,7 @@
 ## Цель лабораторной работы
 Научиться проектировать и строить сложные, многофайловые приложения по заданию, принимать инженерные и проектировочные решения.
 
-<img width="794" height="626" alt="image" src="https://github.com/user-attachments/assets/a418b2d2-888d-4d52-81ed-26347d520676" />
-<img width="789" height="619" alt="image" src="https://github.com/user-attachments/assets/d9b7c3b2-5f5b-4607-9121-cd809308cc15" />
-<img width="786" height="586" alt="image" src="https://github.com/user-attachments/assets/0a935a5a-cc14-456c-aa76-0501f96b7718" />
+<img width="796" height="626" alt="image" src="https://github.com/user-attachments/assets/ae53d787-d76b-436f-b40a-9bf996f8fc3e" />
+<img width="789" height="588" alt="image" src="https://github.com/user-attachments/assets/02edf98a-0988-4041-82ae-8baa35cb0cce" />
+<img width="787" height="616" alt="image" src="https://github.com/user-attachments/assets/ea931bf6-ca46-433c-8fb5-39e5d8ac9252" />
+
