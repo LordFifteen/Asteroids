@@ -45,7 +45,7 @@ class TitleScreenState(GameState):
         #Перебираем все события в очереди
         for event in events:
             #Если событие - клик мыши
-            if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 #Если клик был по области заставки
                 if self.title_rect.collidepoint(event.pos):
                     #Сбрасываем игру и переходим к игровому процессу
