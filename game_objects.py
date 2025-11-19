@@ -17,17 +17,21 @@ class GameObject:
 
     def update(self):
         """Обновление позиции объекта"""
-        self.x += self.vx #Обновление позиции по X
-        self.y += self.vy #Обновление позиции по Y
+        self.x += self.vx
+        self.y += self.vy
 
-        if self.x < 0: #Если объект вышел за левую границу
-            self.x = SCREEN_WIDTH #Появляется с правой стороны
-        elif self.x > SCREEN_WIDTH: #Если объект вышел за правую границу
-            self.x = 0 #Появляется с левой стороны
-        if self.y < 0: #Если объект вышел за верхнюю границу
-            self.y = SCREEN_HEIGHT #Появляется снизу
-        elif self.y > SCREEN_HEIGHT: #Если объект вышел за нижнюю границу
-            self.y = 0 #Появляется сверху
+        #Плавный переход через границы с запасом в 2 размера объекта
+        margin = 50  #Запас для плавного исчезновения или появления
+
+        if self.x < -margin:  #Полностью скрылся за левой границей
+            self.x = SCREEN_WIDTH + margin  #Появляется справа
+        elif self.x > SCREEN_WIDTH + margin:  #Полностью скрылся за правой границей
+            self.x = -margin  #Появляется слева
+
+        if self.y < -margin:  #Полностью скрылся за верхней границей
+            self.y = SCREEN_HEIGHT + margin  #Появляется снизу
+        elif self.y > SCREEN_HEIGHT + margin:  #Полностью скрылся за нижней границей
+            self.y = -margin  #Появляется сверху
 
     def draw(self, screen):
         """Абстрактный метод для отрисовки объекта"""
